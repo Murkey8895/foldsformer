@@ -127,3 +127,27 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# test folder
+eval result/
+data/
+train/trained model
+cached configs/
+
+# pyflex
+PyFlex/demo/compiler/makelinux64/.deps
+PyFlex/demo/compiler/makelinux64/build
+PyFlex/examples/build
+PyFlex/examples/cmake-build-debug
+PyFlex/bindings/cmake-build-debug
+PyFlex/bindings/build
+*.swp
+*.swo
+*.swn
+
+PyFlex/bindings/examples/tmp
+PyFlex/bindings/examples/*.avi
+PyFlex/bindings/examples/*/
+PyFlex/bindings/examples/*.gif
+
+build/

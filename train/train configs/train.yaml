@@ -1,0 +1,27 @@
+# data
+num_workers: 6
+batch_size: 12
+train_data_index_path: "data/data index/train5/TrainIndex.pkl"
+test_data_index_path: "data/data index/train5/TestIndex.pkl"
+
+# optimizer adam
+epochs: 20
+lr: 1e-4
+weight_decay: 0
+
+# Net
+img_size: 224 # image size
+patch_size: 16
+num_frames: 6
+embed_dim: 256
+depth: 8
+num_heads: 16
+mlp_ratio: 4
+attn_drop_rate: 0  # attention dropout
+drop_rate: 0 # position embedding, time_embedding, mlp
+drop_path_rate: 0.1
+
+# saved model info
+save_dir: "train/trained model"
+save_model_name: "Foldsformer"
+
