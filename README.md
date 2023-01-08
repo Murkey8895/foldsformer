@@ -35,7 +35,7 @@ This simulation environment is based on SoftGym. You can follow the instructions
 
 2. Follow the [SoftGym](https://github.com/Xingyu-Lin/softgym) to create a conda environment and install PyFlex. [A nice blog](https://danieltakeshi.github.io/2021/02/20/softgym/) written by Daniel Seita may help you get started on SoftGym.
 
-3.  install the following packages in the created conda environment:
+3. Install the following packages in the created conda environment:
     
     * pytorch and torchvision: `pip install torchvision` or `conda install torchvision -c pytorch`
     * einops: `pip install einops`
@@ -113,7 +113,7 @@ This simulation environment is based on SoftGym. You can follow the instructions
 * Evaluate Foldsformer by running:
 
   ```
-  python eval.py --gui --task DoubleTraingle --model_config train --model_file foldsformer_eval --cached suqare
+  python eval.py --gui --task DoubleTriangle --model_config train --model_file foldsformer_eval --cached square
   python eval.py --gui --task DoubleStraight --model_config train --model_file foldsformer_eval --cached rectangle
   python eval.py --gui --task AllCornersInward --model_config train --model_file foldsformer_eval --cached square
   python eval.py --gui --task CornersEdgesInward --model_confilg train --model_file foldsformer_eval --cached square
