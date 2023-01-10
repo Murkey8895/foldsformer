@@ -5,7 +5,7 @@
 
 This repository is a PyTorch implementation of the paper "Foldsformer: Learning Sequential Multi-Step Cloth Manipulation with Space-Time Attention", published in IEEE RA-L.
 
-[Website](https://sites.google.com/view/foldsformer) | [IEEE Manuscript](https://ieeexplore.ieee.org/abstract/document/9987684) | AriXiv
+[Website](https://sites.google.com/view/foldsformer) | [IEEE Manuscript](https://ieeexplore.ieee.org/abstract/document/9987684) | [ArXiv](https://arxiv.org/abs/2301.03003)
 
 If you find this code useful in your research, please consider citing:
 
