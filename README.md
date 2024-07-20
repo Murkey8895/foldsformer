@@ -121,5 +121,5 @@ This simulation environment is based on SoftGym. You can follow the instructions
 
   The evaluation results are saved in `eval result/`.
 
-If you have any questions, please feel free to contact me via mok21@mails.tsinghua.edu.cn
+If you have any questions, please feel free to contact me via mok21@tsinghua.org.cn. (~~mok21@mails.tsinghua.edu.cn~~)
 
